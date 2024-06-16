@@ -48,20 +48,22 @@ As of right now, there is no official server for Taskly and curious developers w
   ```
 
 - Start the development server
-  This will set up a temporary development server for you to experiment with.
+
+  - This will set up a temporary development server for you to experiment with.
 
   ```bash
   bun run server
   ```
 
-- Run the application locally (recommended)
+- Run the application locally **(recommended)**
 
   ```bash
   bun run local
   ```
 
 - Run the application on your Android device
-  **You might also need to configure API_HOST in config.ts**
+  
+  - **You might also need to configure API_HOST in config.ts**
 
   ```bash
   bun run android
