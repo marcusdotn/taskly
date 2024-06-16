@@ -1,10 +1,11 @@
-![tthk logo](https://github.com/marcusdotn/tthk-api/blob/main/src/api/docs/public/tthk_logo.png?raw=true)
+![taskly image](https://github.com/marcusdotn/taskly/blob/master/image.png?raw=true)
 
 # Taskly
 
 Taskly is my attempt at making a to-do list mobile application using React, Capacitor and PocketBase as my tools. It's mostly just a prototype for me to learn more about cross-platform development and use of BaaS.
 
 Taskly features
+
 - Creating, updating and deleting tasks, which are organized by day
 - A simple, pretty design
 - Authentication
