@@ -1,0 +1,33 @@
+button {
+    width: fit-content;
+    height: fit-content;
+    padding: 0.75rem 0.5rem;
+    border-radius: 0.5rem;
+}
+
+
+
+.black-button {
+    background-color: black;
+    color: white;
+    transition-duration: 200ms;
+}
+
+.black-button:active, .black-button:disabled {
+    background-color: rgb(43, 42, 42);
+    color: rgb(230, 230, 230);
+}
+
+.neutral-border-button {
+    color: #000;
+	border-style: solid;
+	border-color: #c7c7c7;
+	border-width: 0.12rem !important;
+	background-color:  transparent;
+	width: fit-content;
+    border-radius: 0.5rem;
+
+    @media (prefers-color-scheme: dark) {
+        color: white;
+    }
+}

@@ -1,0 +1,13 @@
+.error_message {
+    color: rgb(225, 44, 44);
+}
+
+.link {
+    color: #4b5563;
+	width: fit-content;
+	text-decoration-line: underline;
+
+    @media (prefers-color-scheme: dark) {
+        color: rgb(226, 226, 226);
+    }
+}

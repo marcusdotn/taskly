@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+
+  --ion-background-color: rgb(233, 239, 240);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input {
+  background-color: transparent;
+}
+
+.ion-page {
+  height: 100vh !important;
+  background-color: var(--background-color);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ion-background-color: rgb(37, 37, 37);
+    --ion-text-color: white;
+    --ion-toolbar-background: rgb(50, 50, 50);
+    --ion-toolbar-color: white;
+    --ion-checkbox-background: rgb(200, 200, 200);
+    --ion-checkbox-background-checked: black;
+    --ion-checkbox-checkmark-color: rgb(190, 190, 190);
+  }
+}
